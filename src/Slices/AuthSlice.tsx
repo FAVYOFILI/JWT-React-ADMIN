@@ -32,11 +32,11 @@ const authSlice = createSlice({
       state.isLoggedIn = false;
     },
     signUp: (state, action: PayloadAction<User>) => {
-      state.user = action.payload;
+      state.user = action.payload
       state.isLoggedIn = true;
     },
   },
 });
 
 export const { login, logout, signUp } = authSlice.actions;
-export default authSlice.reducer;
+export default authSlice.reducer

@@ -46,7 +46,7 @@ const SignUp: React.FC = () => {
               to="/login"
               className="font-medium text-indigo-600 hover:text-indigo-500"
             >
-              sign in to your existing account
+              Sign in to your existing account
             </Link>
           </p>
         </div>
@@ -89,7 +89,7 @@ const SignUp: React.FC = () => {
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
-            <div>
+            <div className="">
               <label htmlFor="password" className="sr-only">
                 Password
               </label>

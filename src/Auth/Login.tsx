@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { login } from "../Slices/AuthSlice";
 import type { RootState } from "../Store";
 
+
 const Login: React.FC = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -16,18 +17,18 @@ const Login: React.FC = () => {
   const mockUsers = [
     {
       id: "1",
-      email: "user@example.com",
-      password: "password",
-      name: "John Doe",
+      email: "favourofili0326@gmail.com",
+      password: "1234",
+      name: "Favour Ofili",
       role: "user" as const,
     },
-    {
-      id: "2",
-      email: "admin@example.com",
-      password: "admin123",
-      name: "Admin User",
-      role: "admin" as const,
-    },
+    // {
+    //   id: "2",
+    //   email: "admin@example.com",
+    //   password: "admin123",
+    //   name: "Admin User",
+    //   role: "admin" as const,
+    // },
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
